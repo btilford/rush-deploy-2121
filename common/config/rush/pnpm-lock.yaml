@@ -1,0 +1,31 @@
+dependencies:
+  '@rush-temp/app-a': 'file:projects/app-a.tgz'
+  '@rush-temp/lib-a': 'file:projects/lib-a.tgz'
+  '@rush-temp/lib-b': 'file:projects/lib-b.tgz'
+lockfileVersion: 5.1
+packages:
+  'file:projects/app-a.tgz':
+    dev: false
+    name: '@rush-temp/app-a'
+    resolution:
+      integrity: sha512-SSe1mq6MSG4rVW/Rq7//OURcp9qAZxLbKJH9Ft3y8Lujh0DCm4A37LzJ20mHZidIzvM9xljisNC+V2ztxKXoHQ==
+      tarball: 'file:projects/app-a.tgz'
+    version: 0.0.0
+  'file:projects/lib-a.tgz':
+    dev: false
+    name: '@rush-temp/lib-a'
+    resolution:
+      integrity: sha512-n3/q+Neus1JhYQMz8IcVWradBSMFAbkq9mrgt1lKaaz8VnYFCRnLwEZZ3Ubo2WYu9aOfo/rGHwXak/F2TAw9wA==
+      tarball: 'file:projects/lib-a.tgz'
+    version: 0.0.0
+  'file:projects/lib-b.tgz':
+    dev: false
+    name: '@rush-temp/lib-b'
+    resolution:
+      integrity: sha512-pev/y2Bn/8ltB/KSrIvz4M9zdsd4FNlJmh6CLDJoFeownsV50sBg4JtfaOUbE3RUFfrwVRzIrv9He7cXSwO6iQ==
+      tarball: 'file:projects/lib-b.tgz'
+    version: 0.0.0
+specifiers:
+  '@rush-temp/app-a': 'file:./projects/app-a.tgz'
+  '@rush-temp/lib-a': 'file:./projects/lib-a.tgz'
+  '@rush-temp/lib-b': 'file:./projects/lib-b.tgz'
